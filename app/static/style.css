@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #e7eefc;
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+h1 {
+  margin-bottom: 18px;
+}
+.card {
+  background: #111a2e;
+  border: 1px solid #223255;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #2a3a63;
+  background: #0b1220;
+  color: #e7eefc;
+}
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 0;
+  background: #6d5efc;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  opacity: 0.9;
+}
+.hint {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+.grid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+.article {
+  background: #0b1220;
+  border: 1px solid #223255;
+  border-radius: 12px;
+  padding: 12px;
+}
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #223255;
+  font-size: 0.85rem;
+}
+a {
+  color: #9bb3ff;
+  text-decoration: none;
+}
+.footer {
+  opacity: 0.85;
+  margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ML News Classifier</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ML News Classifier (FastAPI + JWT + Redis)</h1>
+
+      <div class="card">
+        <h2>Login</h2>
+        <div class="row">
+          <input id="username" placeholder="username" value="admin" />
+          <input
+            id="password"
+            placeholder="password"
+            type="password"
+            value="admin"
+          />
+          <button id="btnLogin">Login</button>
+        </div>
+        <p class="hint">Demo creds: admin / admin</p>
+        <p id="loginStatus"></p>
+      </div>
+
+      <div class="card">
+        <h2>Classified News</h2>
+        <button id="btnFetch">Fetch Classified News</button>
+        <div id="results" class="grid"></div>
+      </div>
+
+      <div class="footer">
+        <a href="/documentation" target="_blank">Swagger Docs</a> •
+        <a href="/metrics" target="_blank">Prometheus Metrics</a> •
+        <a href="/health" target="_blank">Health</a>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
