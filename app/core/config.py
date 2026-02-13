@@ -12,8 +12,10 @@ class Settings(BaseSettings):
     GNEWS_COUNTRY: str = "us"
     GNEWS_MAX: int = 10
 
-    REDIS_HOST: str = "redis"
-    REDIS_PORT: int = 6379
+    # REDIS_HOST: str = "redis"
+    # REDIS_PORT: int = 6379 
+
+    REDIS_URL: str
 
     MODEL_VERSION: str = "v1"
 
